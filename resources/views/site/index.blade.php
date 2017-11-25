@@ -15,11 +15,15 @@
 @section('main')
    <main class="valign-wrapper">
     <div class="carousel">
-        <a class="carousel-item" href="#one!"><img class="circle" src="http://via.placeholder.com/500x500"></a>
-        <a class="carousel-item" href="#two!"><img class="circle" src="http://via.placeholder.com/500x500"></a>
-        <a class="carousel-item" href="#three!"><img class="circle" src="http://via.placeholder.com/500x500"></a>
-        <a class="carousel-item" href="#four!"><img class="circle" src="http://via.placeholder.com/500x500"></a>
-        <a class="carousel-item" href="#five!"><img class="circle" src="http://via.placeholder.com/500x500"></a>
+        <a class="carousel-item" href="#one!">
+            <img class="circle" src="http://via.placeholder.com/500x500">
+        </a>
+        <a class="carousel-item" href="#two!">
+            <img class="circle" src="http://via.placeholder.com/500x500">
+        </a>
+        <a class="carousel-item" href="#three!">
+            <img class="circle" src="http://via.placeholder.com/500x500">
+        </a>
     </div>
    </main>
 @endsection

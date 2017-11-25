@@ -19,9 +19,23 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li>
+                            <a class="grey-text text-lighten-3 social_link" href="https://www.instagram.com/fotobykato">
+                                <i class="fa fa-instagram"></i>
+                                <span style="margin-left:5px">Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3 social_link" href="https://www.facebook.com/photobykato">
+                                <i class="fa fa-facebook"></i>
+                                <span style="margin-left: 9px">Facebook</span>                            </a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3 social_link" href="https://vk.com/id140692989">
+                                <i class="fa fa-vk"></i>
+                                <span style="margin-left: 3px">Vkontakte</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

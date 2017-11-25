@@ -11,4 +11,8 @@
 |
 */
 
+Auth::routes();
+Route::post('/post-logout','SiteController@logout')->name('post_logout');
+Route::get('/get-logout','SiteController@logout')->name('get_logout');
+Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/','SiteController@index')->name('index');
