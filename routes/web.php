@@ -12,7 +12,11 @@
 */
 
 Auth::routes();
-Route::post('/post-logout','SiteController@logout')->name('post_logout');
-Route::get('/get-logout','SiteController@logout')->name('get_logout');
+
+Route::any('lang/{locale}',function($lang){
+    App::setLocale($lang);
+    return redirect(route('index'));
+});
+
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/','SiteController@index')->name('index');

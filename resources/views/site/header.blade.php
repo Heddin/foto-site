@@ -17,13 +17,13 @@
                     PhotobyKato
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#">Categories</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">{{__('site.categories')}}</a></li>
+                    <li><a href="#">{{__('site.blog')}}</a></li>
+                    <li><a href="#">{{__('site.contacts')}}</a></li>
+                    <li><a href="#">{{__('site.faq')}}</a></li>
                 </ul>
                 <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up left">
-                    <i class="material-icons">menu</i>
+                    <i class="material-icons">{{__('site.menu')}}</i>
                 </a>
             </div>
         </nav>
