@@ -9,10 +9,18 @@ class Photo extends Model
     protected $fillable = [
         'name_ru',
         'name_en',
-        'category_id',
+        'album_id',
         'pre_img',
         'full_img',
         'ru_description',
         'en_description',
     ];
+
+    public function album(){
+        return $this->belongsTo(Album::class);
+    }
+
+    public function category(){
+
+    }
 }

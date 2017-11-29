@@ -18,7 +18,6 @@ class Locale
     {
         $raw_locale = session()->get('locale');
 
-        dump($raw_locale);
         if(in_array($raw_locale,config('app.locales'))){
             $locale = $raw_locale;
         }else{
