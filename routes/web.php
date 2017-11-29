@@ -13,10 +13,12 @@
 
 Auth::routes();
 
-Route::any('lang/{locale}',function($lang){
-    App::setLocale($lang);
-    return redirect(route('index'));
+Route::get('lang/{locale}',function($locale){
+    if(in_array($locale,config('app.locales'))){
+        session()->put('locale',$locale);
+    }
+    return redirect()->back();
 });
-
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/','SiteController@index')->name('index');
+
